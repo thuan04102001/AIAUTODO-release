@@ -1,20 +1,20 @@
 {
-  "version": "1.0.28",
+  "version": "1.0.29",
   "channel": "stable",
   "required": false,
-  "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.28/AI.AUTODO.Setup.1.0.28.exe",
-  "sha256": "98c5bbca821f44f677699bd58444b33de6222fa23be739ff00787a938edeab74",
-  "size": 660335843,
-  "published_at": "2026-06-26T12:47:02+00:00",
+  "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.29/AI.AUTODO.Setup.1.0.29.exe",
+  "sha256": "e19c0e037167239217de1d972a6332064ca6018bba94a72e2ab4bd333380a2c6",
+  "size": 660343985,
+  "published_at": "2026-06-26T17:16:15+00:00",
   "changelog": [
-    "Fix action tabs so Pause and Active are not classified as Error by old error counters.",
-    "Reconcile Auto Reup ready queues by daily limit and prevent surplus scheduled jobs per day.",
-    "Group Job Queue by page/action with dropdown rows."
+    "Add Vietnamese/English language mode in App Version panel.",
+    "Apply selected language after refresh or app restart.",
+    "Include Auto Reup queue reconciliation and compact dashboard fixes."
   ],
   "patch": {
-    "version": "1.0.28",
-    "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.28/AI.AUTODO.App.Patch.1.0.28.zip",
-    "sha256": "1c073f0d16118f8cc506074326c49c4b139e2af6f8dc3a063906b60947921bcc",
-    "size": 376363195
+    "version": "1.0.29",
+    "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.29/AI.AUTODO.App.Patch.1.0.29.zip",
+    "sha256": "e042158dfe892fa81c9097ed2ce479a20f8349aa86fbafb85dda0627cdde22e5",
+    "size": 376369925
   }
 }
