@@ -1,20 +1,20 @@
 {
-  "version": "1.0.25",
+  "version": "1.0.26",
   "channel": "stable",
   "required": false,
-  "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.25/AI.AUTODO.Setup.1.0.25.exe",
-  "sha256": "5985e2471624a2be7aae28be7a029537881c1b8ef3a9908e5e226e699ee43322",
-  "size": 660334816,
-  "published_at": "2026-06-26T07:55:52+00:00",
+  "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.26/AI.AUTODO.Setup.1.0.26.exe",
+  "sha256": "202750503a780bb51d3de55fdca72428c56ae1b56d0c780eb35e4b765a4b969e",
+  "size": 660334990,
+  "published_at": "2026-06-26T08:23:07+00:00",
   "changelog": [
-    "Reconcile Auto Reup queue to daily action capacity.",
-    "Add compact Auto Reup dashboard tabs for actions, fanpages, queue, and Meta API.",
-    "Split actions into Active, Pause, and Error lists."
+    "Fix update check cache and pending patch restart state.",
+    "Show a restart action when a quick patch is installed but not active.",
+    "Keep Auto Reup v1.0.25 queue and compact dashboard fixes."
   ],
   "patch": {
-    "version": "1.0.25",
-    "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.25/AI.AUTODO.App.Patch.1.0.25.zip",
-    "sha256": "2746df0d2d211331d0c8d907ca9e9b73def267d32c33a58f4bb60d7b1b24d821",
-    "size": 376361219
+    "version": "1.0.26",
+    "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.26/AI.AUTODO.App.Patch.1.0.26.zip",
+    "sha256": "2de52b7087e8bb469ed2cbe316a77707ef1e583c093b0e1d662743a90dec4684",
+    "size": 376361175
   }
 }
