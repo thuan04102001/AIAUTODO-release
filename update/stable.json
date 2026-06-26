@@ -1,0 +1,19 @@
+{
+  "version": "1.0.23",
+  "channel": "stable",
+  "required": false,
+  "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.23/AI.AUTODO.Setup.1.0.23.exe",
+  "sha256": "2a7f6d984c174bc320b8e7812097274333467834f8b1c0e6008c298c9149e012",
+  "size": 660328887,
+  "published_at": "2026-06-25T12:20:14+00:00",
+  "changelog": [
+    "Fix full installer launch from older app versions.",
+    "Installer no longer kills its own child process when opened from AI AUTODO."
+  ],
+  "patch": {
+    "version": "1.0.23",
+    "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.23/AI.AUTODO.App.Patch.1.0.23.zip",
+    "sha256": "c9122b7349be44b89158a9586378e22926a0db932be19a857552df3012bbae70",
+    "size": 376358313
+  }
+}
