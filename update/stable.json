@@ -1,20 +1,20 @@
 {
-  "version": "1.0.27",
+  "version": "1.0.28",
   "channel": "stable",
   "required": false,
-  "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.27/AI.AUTODO.Setup.1.0.27.exe",
-  "sha256": "a3a3399b6e1091a2dbf093a5ee78c2dd2f311e42fcafc9208ec54ffc739b9503",
-  "size": 660336501,
-  "published_at": "2026-06-26T08:48:15+00:00",
+  "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.28/AI.AUTODO.Setup.1.0.28.exe",
+  "sha256": "98c5bbca821f44f677699bd58444b33de6222fa23be739ff00787a938edeab74",
+  "size": 660335843,
+  "published_at": "2026-06-26T12:47:02+00:00",
   "changelog": [
-    "Fix update download compatibility between old and new backend/frontend.",
-    "Keep real progress download jobs while allowing legacy direct download payloads.",
-    "Show update download errors with danger styling."
+    "Fix action tabs so Pause and Active are not classified as Error by old error counters.",
+    "Reconcile Auto Reup ready queues by daily limit and prevent surplus scheduled jobs per day.",
+    "Group Job Queue by page/action with dropdown rows."
   ],
   "patch": {
-    "version": "1.0.27",
-    "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.27/AI.AUTODO.App.Patch.1.0.27.zip",
-    "sha256": "c63764fc8270b331718b6e3ab701f600804b1c72bbbb2c325e9156308fbd2e59",
-    "size": 376362345
+    "version": "1.0.28",
+    "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.28/AI.AUTODO.App.Patch.1.0.28.zip",
+    "sha256": "1c073f0d16118f8cc506074326c49c4b139e2af6f8dc3a063906b60947921bcc",
+    "size": 376363195
   }
 }
