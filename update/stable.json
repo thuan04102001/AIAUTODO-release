@@ -1,20 +1,20 @@
 {
-  "version": "1.0.26",
+  "version": "1.0.27",
   "channel": "stable",
   "required": false,
-  "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.26/AI.AUTODO.Setup.1.0.26.exe",
-  "sha256": "202750503a780bb51d3de55fdca72428c56ae1b56d0c780eb35e4b765a4b969e",
-  "size": 660334990,
-  "published_at": "2026-06-26T08:23:07+00:00",
+  "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.27/AI.AUTODO.Setup.1.0.27.exe",
+  "sha256": "a3a3399b6e1091a2dbf093a5ee78c2dd2f311e42fcafc9208ec54ffc739b9503",
+  "size": 660336501,
+  "published_at": "2026-06-26T08:48:15+00:00",
   "changelog": [
-    "Fix update check cache and pending patch restart state.",
-    "Show a restart action when a quick patch is installed but not active.",
-    "Keep Auto Reup v1.0.25 queue and compact dashboard fixes."
+    "Fix update download compatibility between old and new backend/frontend.",
+    "Keep real progress download jobs while allowing legacy direct download payloads.",
+    "Show update download errors with danger styling."
   ],
   "patch": {
-    "version": "1.0.26",
-    "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.26/AI.AUTODO.App.Patch.1.0.26.zip",
-    "sha256": "2de52b7087e8bb469ed2cbe316a77707ef1e583c093b0e1d662743a90dec4684",
-    "size": 376361175
+    "version": "1.0.27",
+    "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.27/AI.AUTODO.App.Patch.1.0.27.zip",
+    "sha256": "c63764fc8270b331718b6e3ab701f600804b1c72bbbb2c325e9156308fbd2e59",
+    "size": 376362345
   }
 }
