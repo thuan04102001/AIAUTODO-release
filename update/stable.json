@@ -1,20 +1,20 @@
 {
-  "version": "1.0.30",
+  "version": "1.0.31",
   "channel": "stable",
   "required": false,
-  "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.30/AI.AUTODO.Setup.1.0.30.exe",
-  "sha256": "705903cac8b5c2eac3504a18ada1729e7879f09202055363d0871c8fd010e98e",
-  "size": 660343715,
-  "published_at": "2026-06-26T18:00:47+00:00",
+  "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.31/AI.AUTODO.Setup.1.0.31.exe",
+  "sha256": "67eec436ad9918cd5b1a3144f4d6698b4de4e27128801f94f12e15240f853f1d",
+  "size": 660344964,
+  "published_at": "2026-06-26T19:29:33+00:00",
   "changelog": [
-    "Ignore stale production update env overrides unless explicitly allowed.",
-    "Keep packaged apps on the public release-only update manifest.",
-    "Preserve env update override only for dev/debug mode."
+    "Default Creative options are now off for new Video Text Translator renders and Auto Reup actions.",
+    "Keep backend request defaults aligned so optional creative audio/repack features never auto-enable.",
+    "Include latest localization and dashboard fixes."
   ],
   "patch": {
-    "version": "1.0.30",
-    "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.30/AI.AUTODO.App.Patch.1.0.30.zip",
-    "sha256": "1defecadf233d5d6de1c0f25dbf4cbd286dc0d004595ccaba669f6224d9615a1",
-    "size": 376370299
+    "version": "1.0.31",
+    "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.31/AI.AUTODO.App.Patch.1.0.31.zip",
+    "sha256": "7087aa31e9804639b8dde83655d2c8b16676d1d9ede493320d798475757ee9d2",
+    "size": 376371828
   }
 }
