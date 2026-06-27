@@ -1,20 +1,19 @@
 {
-  "version": "1.0.32",
+  "version": "1.0.33",
   "channel": "stable",
   "required": false,
-  "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.32/AI.AUTODO.Setup.1.0.32.exe",
-  "sha256": "6872412d6c4f704dc793efc189c3f8c8b16a2e734a1c7708a65f3d8709dc810d",
-  "size": 660350847,
-  "published_at": "2026-06-27T06:55:46+00:00",
+  "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.33/AI.AUTODO.Setup.1.0.33.exe",
+  "sha256": "6c45f9179072b0ef23b277bc07bff1cc29a64bca07de62eef64ef52f925d7d6b",
+  "size": 660350839,
+  "published_at": "2026-06-27T07:48:53+00:00",
   "changelog": [
-    "Dong bo day du giao dien Tieng Viet va Tieng Anh.",
-    "Sua doi chieu hang doi va lich dang thong minh theo gioi han moi ngay.",
-    "Chuan hoa phan loai trang thai va hien thi quan tri."
+    "Reject stale GPU backend cores through backend API 2.",
+    "Keep Auto Reup queue at the action daily limit and replan spaced daily slots."
   ],
   "patch": {
-    "version": "1.0.32",
-    "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.32/AI.AUTODO.App.Patch.1.0.32.zip",
-    "sha256": "182c9212ff41ad47eeb0d909d70f1b9d3c552c9d743f70d8fc6ccdb92aaaf2c0",
-    "size": 376376549
+    "version": "1.0.33",
+    "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.33/AI.AUTODO.App.Patch.1.0.33.zip",
+    "sha256": "961ae0ca54d69aee550101108a71dc1d8579c4dcb2f46b3481cccf04c0210604",
+    "size": 376377498
   }
 }
