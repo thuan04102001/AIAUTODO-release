@@ -1,19 +1,14 @@
 {
   "version": "1.0.33",
   "channel": "stable",
-  "required": false,
+  "required": true,
   "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.33/AI.AUTODO.Setup.1.0.33.exe",
   "sha256": "6c45f9179072b0ef23b277bc07bff1cc29a64bca07de62eef64ef52f925d7d6b",
   "size": 660350839,
-  "published_at": "2026-06-27T07:48:53+00:00",
+  "published_at": "2026-06-27T07:57:00+00:00",
   "changelog": [
-    "Reject stale GPU backend cores through backend API 2.",
-    "Keep Auto Reup queue at the action daily limit and replan spaced daily slots."
-  ],
-  "patch": {
-    "version": "1.0.33",
-    "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.33/AI.AUTODO.App.Patch.1.0.33.zip",
-    "sha256": "961ae0ca54d69aee550101108a71dc1d8579c4dcb2f46b3481cccf04c0210604",
-    "size": 376377498
-  }
+    "Full installer required: upgrade Electron GPU backend contract to API 2.",
+    "Reject stale GPU backend cores and fall back to the current CPU core safely.",
+    "Keep Auto Reup queue at the action daily limit with spaced daily slots."
+  ]
 }
