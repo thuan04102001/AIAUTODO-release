@@ -1,20 +1,20 @@
 {
-  "version": "1.0.31",
+  "version": "1.0.32",
   "channel": "stable",
   "required": false,
-  "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.31/AI.AUTODO.Setup.1.0.31.exe",
-  "sha256": "67eec436ad9918cd5b1a3144f4d6698b4de4e27128801f94f12e15240f853f1d",
-  "size": 660344964,
-  "published_at": "2026-06-26T19:29:33+00:00",
+  "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.32/AI.AUTODO.Setup.1.0.32.exe",
+  "sha256": "6872412d6c4f704dc793efc189c3f8c8b16a2e734a1c7708a65f3d8709dc810d",
+  "size": 660350847,
+  "published_at": "2026-06-27T06:55:46+00:00",
   "changelog": [
-    "Default Creative options are now off for new Video Text Translator renders and Auto Reup actions.",
-    "Keep backend request defaults aligned so optional creative audio/repack features never auto-enable.",
-    "Include latest localization and dashboard fixes."
+    "Dong bo day du giao dien Tieng Viet va Tieng Anh.",
+    "Sua doi chieu hang doi va lich dang thong minh theo gioi han moi ngay.",
+    "Chuan hoa phan loai trang thai va hien thi quan tri."
   ],
   "patch": {
-    "version": "1.0.31",
-    "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.31/AI.AUTODO.App.Patch.1.0.31.zip",
-    "sha256": "7087aa31e9804639b8dde83655d2c8b16676d1d9ede493320d798475757ee9d2",
-    "size": 376371828
+    "version": "1.0.32",
+    "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.32/AI.AUTODO.App.Patch.1.0.32.zip",
+    "sha256": "182c9212ff41ad47eeb0d909d70f1b9d3c552c9d743f70d8fc6ccdb92aaaf2c0",
+    "size": 376376549
   }
 }
