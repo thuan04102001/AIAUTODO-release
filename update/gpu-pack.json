@@ -1,28 +1,28 @@
 {
   "schema": 1,
   "pack_id": "ai-autodo-gpu-win32-x64",
-  "version": "1.0.20",
-  "pack_version": "1.0.20",
-  "backend_api": "1",
+  "version": "1.0.33",
+  "pack_version": "1.0.33",
+  "backend_api": "2",
   "channel": "stable",
   "url": "",
-  "sha256": "29497cd8f224139b0712238da98fc0211bf9676b571670a5b027282a2591f072",
-  "size": 2628750501,
+  "sha256": "89bb3232beb52f744b68f33aaa2ef37dc9be6508426b96b6cffec54c0582b223",
+  "size": 2628759693,
   "parts": [
     {
-      "name": "AI AUTODO GPU Pack 1.0.20.zip.part1",
-      "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.20/AI.AUTODO.GPU.Pack.1.0.20.zip.part1",
-      "sha256": "e27abfc9b65a12a228b51b3de97216d3188637d04d8a3798a31291a56de2d5b9",
+      "name": "AI AUTODO GPU Pack 1.0.33.zip.part1",
+      "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.33/AI.AUTODO.GPU.Pack.1.0.33.zip.part1",
+      "sha256": "c4caa5ca5fdd45c4e4f602ca3806e8d0ba139cefe18f6ca2117d3b0ee5c878bf",
       "size": 1887436800
     },
     {
-      "name": "AI AUTODO GPU Pack 1.0.20.zip.part2",
-      "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.20/AI.AUTODO.GPU.Pack.1.0.20.zip.part2",
-      "sha256": "fc84ed4264b27802b7127bfbea751e7b23d69c23c6632742e25e6e08bae4bfaf",
-      "size": 741313701
+      "name": "AI AUTODO GPU Pack 1.0.33.zip.part2",
+      "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.33/AI.AUTODO.GPU.Pack.1.0.33.zip.part2",
+      "sha256": "087a4d0374b67c681b95ff62055d3419c54aa8aeebae88fee4724476a930826e",
+      "size": 741322893
     }
   ],
-  "published_at": "2026-06-25T06:46:59+00:00",
+  "published_at": "2026-06-27T07:39:35+00:00",
   "runtime": {
     "type": "gpu",
     "platform": "win32-x64",
@@ -34,7 +34,7 @@
   },
   "install_root": "runtimes/gpu",
   "changelog": [
-    "GPU backend rebuilt from app 1.0.20 so license refresh and current APIs are available.",
-    "Requires backend_api 1 and Windows x64 CUDA runtime."
+    "GPU core rebuilt with backend API 2 and current Auto Reup queue reconciliation.",
+    "Compatible with app releases that require backend API 2."
   ]
 }
