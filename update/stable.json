@@ -1,20 +1,14 @@
 {
-  "version": "1.0.34",
+  "version": "1.0.35",
   "channel": "stable",
-  "required": false,
-  "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.34/AI.AUTODO.Setup.1.0.34.exe",
-  "sha256": "8a4846d160d518ecad984e1a762b646b8cf36e04d23f7569fc52b7110000352a",
-  "size": 660352100,
-  "published_at": "2026-06-28T07:24:03+00:00",
+  "required": true,
+  "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.35/AI.AUTODO.Setup.1.0.35.exe",
+  "sha256": "bac403e2a25ae8b616d052ea02ba368dab9238751856dd845774bc2d401ef33f",
+  "size": 660351934,
+  "published_at": "2026-06-28T12:17:45+00:00",
   "changelog": [
-    "Fix Auto Reup scheduler so read paths do not mutate queued publish times.",
-    "Promote the app version panel into a full main view with adaptive layout.",
-    "Improve runtime detail sizing, unified scrollbars, and isolate dev data/workers from production."
-  ],
-  "patch": {
-    "version": "1.0.34",
-    "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.34/AI.AUTODO.App.Patch.1.0.34.zip",
-    "sha256": "829fa4d9a457a871efadbda065200f6ce38298fbe972b7cf3d4306314ec39cce",
-    "size": 376378556
-  }
+    "Stop using GPU Pack as an alternate backend runtime.",
+    "Force Auto Reup, license, scheduler, and update logic to run on the current app backend.",
+    "Keep GPU Pack installed/downloadable, but reserve it for a worker-only acceleration architecture."
+  ]
 }
