@@ -1,14 +1,20 @@
 {
-  "version": "1.0.35",
+  "version": "1.0.36",
   "channel": "stable",
   "required": true,
-  "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.35/AI.AUTODO.Setup.1.0.35.exe",
-  "sha256": "bac403e2a25ae8b616d052ea02ba368dab9238751856dd845774bc2d401ef33f",
-  "size": 660351934,
-  "published_at": "2026-06-28T12:17:45+00:00",
+  "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.36/AI.AUTODO.Setup.1.0.36.exe",
+  "sha256": "c9ae377a4e584f09e170b205523a031b0e0379f102e80e359e7150964efd2450",
+  "size": 660357482,
+  "published_at": "2026-06-28T13:35:10+00:00",
   "changelog": [
-    "Stop using GPU Pack as an alternate backend runtime.",
-    "Force Auto Reup, license, scheduler, and update logic to run on the current app backend.",
-    "Keep GPU Pack installed/downloadable, but reserve it for a worker-only acceleration architecture."
-  ]
+    "Use GPU Pack as a worker-only acceleration package.",
+    "Keep Auto Reup, license, scheduler, and updates on the main app backend.",
+    "Fallback safely to CPU when GPU worker is unavailable."
+  ],
+  "patch": {
+    "version": "1.0.36",
+    "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.36/AI.AUTODO.App.Patch.1.0.36.zip",
+    "sha256": "a9d981767a3ff443dc9e02c6517c349d0347e5513c92dc5579256f154add6dc1",
+    "size": 376382860
+  }
 }

@@ -1,40 +1,41 @@
 {
   "schema": 1,
   "pack_id": "ai-autodo-gpu-win32-x64",
-  "version": "1.0.33",
-  "pack_version": "1.0.33",
-  "backend_api": "2",
+  "version": "1.0.36",
+  "pack_version": "1.0.36",
+  "worker_api": "1",
   "channel": "stable",
   "url": "",
-  "sha256": "89bb3232beb52f744b68f33aaa2ef37dc9be6508426b96b6cffec54c0582b223",
-  "size": 2628759693,
+  "sha256": "4f1594875fae1281b9d1490b179f7a5a63797b9dbc43302b8a7323d4f6295849",
+  "size": 2531534752,
   "parts": [
     {
-      "name": "AI AUTODO GPU Pack 1.0.33.zip.part1",
-      "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.33/AI.AUTODO.GPU.Pack.1.0.33.zip.part1",
-      "sha256": "c4caa5ca5fdd45c4e4f602ca3806e8d0ba139cefe18f6ca2117d3b0ee5c878bf",
+      "name": "AI AUTODO GPU Pack 1.0.36.zip.part1",
+      "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.36/AI.AUTODO.GPU.Pack.1.0.36.zip.part1",
+      "sha256": "2f9678378cf9edf78d65cbc4a0696bbd0f21db9ff4e3b719fe3b6236ae4a13ef",
       "size": 1887436800
     },
     {
-      "name": "AI AUTODO GPU Pack 1.0.33.zip.part2",
-      "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.33/AI.AUTODO.GPU.Pack.1.0.33.zip.part2",
-      "sha256": "087a4d0374b67c681b95ff62055d3419c54aa8aeebae88fee4724476a930826e",
-      "size": 741322893
+      "name": "AI AUTODO GPU Pack 1.0.36.zip.part2",
+      "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.36/AI.AUTODO.GPU.Pack.1.0.36.zip.part2",
+      "sha256": "cad0841e7f0b817c36c711665fa91902b5cd01204883dbcef477a0ed7c1094af",
+      "size": 644097952
     }
   ],
-  "published_at": "2026-06-27T07:39:35+00:00",
+  "published_at": "2026-06-28T13:16:20+00:00",
   "runtime": {
-    "type": "gpu",
+    "type": "gpu-worker",
     "platform": "win32-x64",
     "python": "3.12"
   },
   "health": {
-    "endpoint": "/app/info",
+    "endpoint": "/worker/info",
     "timeout_ms": 15000
   },
   "install_root": "runtimes/gpu",
   "changelog": [
-    "GPU core rebuilt with backend API 2 and current Auto Reup queue reconciliation.",
-    "Compatible with app releases that require backend API 2."
+    "GPU Pack is now a worker-only acceleration package.",
+    "Keep Auto Reup, license, scheduler, and updates on the main app backend.",
+    "Use GPU automatically for compatible OCR/render acceleration paths."
   ]
 }
