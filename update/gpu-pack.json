@@ -1,28 +1,58 @@
 {
   "schema": 1,
   "pack_id": "ai-autodo-gpu-win32-x64",
-  "version": "1.0.36",
-  "pack_version": "1.0.36",
+  "version": "1.0.37",
+  "pack_version": "1.0.37",
   "worker_api": "1",
   "channel": "stable",
   "url": "",
-  "sha256": "4f1594875fae1281b9d1490b179f7a5a63797b9dbc43302b8a7323d4f6295849",
-  "size": 2531534752,
+  "sha256": "f02d5d0254d5aa6cd6f82f25b5a40a76f28f1f5a950cd0cd7d449e70452daa40",
+  "size": 2531534276,
   "parts": [
     {
-      "name": "AI AUTODO GPU Pack 1.0.36.zip.part1",
-      "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.36/AI.AUTODO.GPU.Pack.1.0.36.zip.part1",
-      "sha256": "2f9678378cf9edf78d65cbc4a0696bbd0f21db9ff4e3b719fe3b6236ae4a13ef",
-      "size": 1887436800
+      "name": "AI.AUTODO.GPU.Pack.1.0.37.zip.part1",
+      "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.37/AI.AUTODO.GPU.Pack.1.0.37.zip.part1",
+      "sha256": "54475a147e2d9b51df4f0e6d9306c663757853d2c378802a8bfd1afffd696e63",
+      "size": 402653184
     },
     {
-      "name": "AI AUTODO GPU Pack 1.0.36.zip.part2",
-      "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.36/AI.AUTODO.GPU.Pack.1.0.36.zip.part2",
-      "sha256": "cad0841e7f0b817c36c711665fa91902b5cd01204883dbcef477a0ed7c1094af",
-      "size": 644097952
+      "name": "AI.AUTODO.GPU.Pack.1.0.37.zip.part2",
+      "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.37/AI.AUTODO.GPU.Pack.1.0.37.zip.part2",
+      "sha256": "036be89ae5a163e0a6f37fd2c8f2d7ff885cd41b5c7e7d850886127b4901ba4c",
+      "size": 402653184
+    },
+    {
+      "name": "AI.AUTODO.GPU.Pack.1.0.37.zip.part3",
+      "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.37/AI.AUTODO.GPU.Pack.1.0.37.zip.part3",
+      "sha256": "0610589d265b3f62b8aa5d2cbbdce6f805109fd47fd1881292ff04cc08f95388",
+      "size": 402653184
+    },
+    {
+      "name": "AI.AUTODO.GPU.Pack.1.0.37.zip.part4",
+      "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.37/AI.AUTODO.GPU.Pack.1.0.37.zip.part4",
+      "sha256": "f1ffad7280af14733fa2ccff5c0a2b7c217a305f8d2f1b5cba428c7d841b3aee",
+      "size": 402653184
+    },
+    {
+      "name": "AI.AUTODO.GPU.Pack.1.0.37.zip.part5",
+      "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.37/AI.AUTODO.GPU.Pack.1.0.37.zip.part5",
+      "sha256": "2a56dde539b84f85af0345bdd16a309d7c44353558cd5dfea1435451e9f22c57",
+      "size": 402653184
+    },
+    {
+      "name": "AI.AUTODO.GPU.Pack.1.0.37.zip.part6",
+      "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.37/AI.AUTODO.GPU.Pack.1.0.37.zip.part6",
+      "sha256": "414a5e99a711e53436c8dcf13998748d5b4fd50886cca5355d89f6734b72997d",
+      "size": 402653184
+    },
+    {
+      "name": "AI.AUTODO.GPU.Pack.1.0.37.zip.part7",
+      "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.37/AI.AUTODO.GPU.Pack.1.0.37.zip.part7",
+      "sha256": "8418b7f7541a1ebcb9dafd6c3960c1efd1b4fdf91b4929587aa1076ca81c3f4f",
+      "size": 115615172
     }
   ],
-  "published_at": "2026-06-28T13:16:20+00:00",
+  "published_at": "2026-06-28T18:07:20+00:00",
   "runtime": {
     "type": "gpu-worker",
     "platform": "win32-x64",
@@ -34,8 +64,7 @@
   },
   "install_root": "runtimes/gpu",
   "changelog": [
-    "GPU Pack is now a worker-only acceleration package.",
-    "Keep Auto Reup, license, scheduler, and updates on the main app backend.",
-    "Use GPU automatically for compatible OCR/render acceleration paths."
+    "GPU Pack is split into smaller resumable parts for more stable downloads.",
+    "Use GPU as a worker-only acceleration package; main app keeps license, scheduler, and updates."
   ]
 }
