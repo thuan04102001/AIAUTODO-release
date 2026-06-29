@@ -1,20 +1,20 @@
 {
-  "version": "1.0.38",
+  "version": "1.0.39",
   "channel": "stable",
   "required": false,
-  "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.38/AI.AUTODO.Setup.1.0.38.exe",
-  "sha256": "d9620b0d6a22bc6bf56375d99ddee23e319ac30f5c31f7a49e27f9f8e1974af3",
-  "size": 660370303,
-  "published_at": "2026-06-29T00:12:14+00:00",
+  "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.39/AI.AUTODO.Setup.1.0.39.exe",
+  "sha256": "ddb36e520e26bdf503c367cc442d3e0d71f51cfaedd553fc3b4c024d6f246f88",
+  "size": 660372862,
+  "published_at": "2026-06-29T01:41:56+00:00",
   "changelog": [
-    "Fix GPU acceleration toggle and worker status reporting.",
-    "Probe installed GPU worker hardware from the main backend.",
-    "Show CPU/GPU acceleration state clearly in the version panel."
+    "Lock update actions while a download or installation is active.",
+    "Recover stale GPU worker processes and retry startup safely.",
+    "Keep hardware status visible and polish the Optional GPU Pack layout."
   ],
   "patch": {
-    "version": "1.0.38",
-    "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.38/AI.AUTODO.App.Patch.1.0.38.zip",
-    "sha256": "1ee534976a4efcf3cc4d6aa148c8c2de47f6a8b5287c7bc96fc3c3214613859d",
-    "size": 376393307
+    "version": "1.0.39",
+    "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.39/AI.AUTODO.App.Patch.1.0.39.zip",
+    "sha256": "3fd10cea1380bdbdcdc2f859caa037c63d6e758c50ca2c92c92cc8bb45d66131",
+    "size": 376393977
   }
 }
