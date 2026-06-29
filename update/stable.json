@@ -1,20 +1,20 @@
 {
-  "version": "1.0.37",
+  "version": "1.0.38",
   "channel": "stable",
   "required": false,
-  "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.37/AI.AUTODO.Setup.1.0.37.exe",
-  "sha256": "aa596ad4acccdd819af14fecb650cc84559995c540257e48135477e22bdd77f1",
-  "size": 660368146,
-  "published_at": "2026-06-28T18:08:55+00:00",
+  "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.38/AI.AUTODO.Setup.1.0.38.exe",
+  "sha256": "d9620b0d6a22bc6bf56375d99ddee23e319ac30f5c31f7a49e27f9f8e1974af3",
+  "size": 660370303,
+  "published_at": "2026-06-29T00:12:14+00:00",
   "changelog": [
-    "GPU Pack downloader supports resume, retry/backoff, part cache, checksum verification, and real progress.",
-    "Video render/audio failures now return and display the original technical error for debugging.",
-    "GPU Pack download status is separated from app update status."
+    "Fix GPU acceleration toggle and worker status reporting.",
+    "Probe installed GPU worker hardware from the main backend.",
+    "Show CPU/GPU acceleration state clearly in the version panel."
   ],
   "patch": {
-    "version": "1.0.37",
-    "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.37/AI.AUTODO.App.Patch.1.0.37.zip",
-    "sha256": "b6e5f7d5f4891d9593c586dea458620f2f197e275781cc9fc20fefa8ce73bb7d",
-    "size": 376389813
+    "version": "1.0.38",
+    "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.38/AI.AUTODO.App.Patch.1.0.38.zip",
+    "sha256": "1ee534976a4efcf3cc4d6aa148c8c2de47f6a8b5287c7bc96fc3c3214613859d",
+    "size": 376393307
   }
 }
