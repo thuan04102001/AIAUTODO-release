@@ -1,20 +1,21 @@
 {
-  "version": "1.0.42",
+  "version": "1.0.43",
   "channel": "stable",
   "required": true,
-  "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.42/AI.AUTODO.Setup.1.0.42.exe",
-  "sha256": "1eb5c754b70d36a99f1c5be290f3f94345edc543d4f0658c7bfc568508ccaa50",
-  "size": 628251987,
-  "published_at": "2026-07-02T10:05:00+00:00",
+  "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.43/AI.AUTODO.Setup.1.0.43.exe",
+  "sha256": "2a160b61e67aaa03bb14283c6a45cfb137d5d3d93ecd45388a4a6c6d0c399baa",
+  "size": 628245191,
+  "published_at": "2026-07-02T12:42:40+00:00",
   "changelog": [
-    "Hotfix license active state after update/app patch.",
-    "Keep active online cache fallback when license config is temporarily unavailable.",
-    "Package license config separately from .env for installer and app patch."
+    "Fix GPU pack layout overflow and refresh button wrapping.",
+    "Fix stale quick-patch restart state after update.",
+    "Keep stable Windows identity and shortcut behavior for updates.",
+    "Fix Fanpage credential labels and default expanded sidebar."
   ],
   "patch": {
-    "version": "1.0.42",
-    "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.42/AI.AUTODO.App.Patch.1.0.42.zip",
-    "sha256": "ded6640ccb0e0c6dce926c3769e415c9222ebb9496ab24a1e4747d49f385e8ca",
-    "size": 376483524
+    "version": "1.0.43",
+    "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.43/AI.AUTODO.App.Patch.1.0.43.zip",
+    "sha256": "d24f6529f811f3fa5ace21b3e832c49d39412cb80fe9e27d10135b7294d12506",
+    "size": 376483159
   }
 }
