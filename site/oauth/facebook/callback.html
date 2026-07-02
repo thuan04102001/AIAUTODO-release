@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI AUTODO Meta OAuth</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        background: #0b1020;
+        color: #e5e7eb;
+      }
+      body {
+        min-height: 100vh;
+        margin: 0;
+        display: grid;
+        place-items: center;
+      }
+      .card {
+        width: min(560px, calc(100vw - 32px));
+        border: 1px solid rgba(129, 140, 248, 0.35);
+        border-radius: 22px;
+        background: linear-gradient(145deg, rgba(30, 41, 59, 0.96), rgba(15, 23, 42, 0.98));
+        box-shadow: 0 24px 80px rgba(0, 0, 0, 0.35);
+        padding: 28px;
+      }
+      .eyebrow {
+        margin: 0 0 10px;
+        color: #a5b4fc;
+        font-weight: 800;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        font-size: 12px;
+      }
+      h1 {
+        margin: 0 0 10px;
+        font-size: 24px;
+      }
+      p {
+        margin: 0;
+        color: #cbd5e1;
+        line-height: 1.55;
+      }
+      code {
+        color: #93c5fd;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="card">
+      <p class="eyebrow">AI AUTODO</p>
+      <h1>Đang chuyển kết nối Meta về app...</h1>
+      <p id="status">Vui lòng giữ app AI AUTODO đang mở. Trang này sẽ tự đóng hoặc chuyển về app sau vài giây.</p>
+    </section>
+    <script>
+      (function () {
+        var LOCAL_CALLBACK = "http://127.0.0.1:18080/auto-reup/meta/oauth/callback";
+        var suffix = window.location.search || "";
+        if (window.location.hash) {
+          suffix += window.location.hash;
+        }
+        var target = LOCAL_CALLBACK + suffix;
+        var status = document.getElementById("status");
+        try {
+          status.innerHTML = "Đang gửi mã xác thực về <code>127.0.0.1:18080</code>...";
+          window.location.replace(target);
+        } catch (error) {
+          status.textContent = "Không thể tự chuyển về app. Hãy đảm bảo AI AUTODO đang chạy rồi thử lại.";
+        }
+      })();
+    </script>
+  </body>
+</html>
