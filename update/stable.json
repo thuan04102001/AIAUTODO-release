@@ -1,20 +1,20 @@
 {
-  "version": "1.0.40",
+  "version": "1.0.41",
   "channel": "stable",
   "required": false,
-  "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.40/AI.AUTODO.Setup.1.0.40.exe",
-  "sha256": "b185e399b7a6c7529bfd8445c2c2311f18bc4c795bc0087c526ac7687c2716d7",
-  "size": 660373573,
-  "published_at": "2026-06-29T03:09:21+00:00",
+  "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.41/AI.AUTODO.Setup.1.0.41.exe",
+  "sha256": "5cd0acbcccd2b5e574aadaf5e0a9bab0a77d2e7ac967c2320e1e18f6910b4038",
+  "size": 628249173,
+  "published_at": "2026-07-02T09:13:47+00:00",
   "changelog": [
-    "Deduplicate Meta pagination by object ID for stable Page post totals.",
-    "Stop repeated Meta paging cursors from duplicating insight data.",
-    "Keep a stable Windows AppUserModelID and shortcut identity across updates."
+    "Optimize Auto Reup scheduling, Gemini Browser rewrite, and affiliate comments.",
+    "Add Affiliate Library, YouTube Shorts source, and multi-product comment selection.",
+    "Clean production release: no bundled .env, no backend tests, demo job locked outside VDEV."
   ],
   "patch": {
-    "version": "1.0.40",
-    "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.40/AI.AUTODO.App.Patch.1.0.40.zip",
-    "sha256": "c35dfba920cb8d7f5da22fa6f5f3eff60d6f6ffafbd47c0d0784d9037ab16576",
-    "size": 376393750
+    "version": "1.0.41",
+    "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.41/AI.AUTODO.App.Patch.1.0.41.zip",
+    "sha256": "03e0925703e7f4a302e4512c262ac2811deacbe4b4d40eac4d35bee682a6416c",
+    "size": 376480862
   }
 }
