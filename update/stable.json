@@ -1,20 +1,20 @@
 {
-  "version": "1.0.41",
+  "version": "1.0.42",
   "channel": "stable",
-  "required": false,
-  "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.41/AI.AUTODO.Setup.1.0.41.exe",
-  "sha256": "5cd0acbcccd2b5e574aadaf5e0a9bab0a77d2e7ac967c2320e1e18f6910b4038",
-  "size": 628249173,
-  "published_at": "2026-07-02T09:13:47+00:00",
+  "required": true,
+  "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.42/AI.AUTODO.Setup.1.0.42.exe",
+  "sha256": "1eb5c754b70d36a99f1c5be290f3f94345edc543d4f0658c7bfc568508ccaa50",
+  "size": 628251987,
+  "published_at": "2026-07-02T10:05:00+00:00",
   "changelog": [
-    "Optimize Auto Reup scheduling, Gemini Browser rewrite, and affiliate comments.",
-    "Add Affiliate Library, YouTube Shorts source, and multi-product comment selection.",
-    "Clean production release: no bundled .env, no backend tests, demo job locked outside VDEV."
+    "Hotfix license active state after update/app patch.",
+    "Keep active online cache fallback when license config is temporarily unavailable.",
+    "Package license config separately from .env for installer and app patch."
   ],
   "patch": {
-    "version": "1.0.41",
-    "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.41/AI.AUTODO.App.Patch.1.0.41.zip",
-    "sha256": "03e0925703e7f4a302e4512c262ac2811deacbe4b4d40eac4d35bee682a6416c",
-    "size": 376480862
+    "version": "1.0.42",
+    "url": "https://github.com/thuan04102001/AIAUTODO-release/releases/download/v1.0.42/AI.AUTODO.App.Patch.1.0.42.zip",
+    "sha256": "ded6640ccb0e0c6dce926c3769e415c9222ebb9496ab24a1e4747d49f385e8ca",
+    "size": 376483524
   }
 }
